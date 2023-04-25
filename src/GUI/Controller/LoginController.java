@@ -1,5 +1,6 @@
 package GUI.Controller;
 
+import PersonsTypes.*;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -22,5 +23,14 @@ public class LoginController {
     }
     public void setup() {
         logoImgViewLogin.setImage(new Image("Pictures/WuavLogo.png"));
+
+        //PersonTypeChooser personTypeChooser=new PersonTypeChooser();
+        //personTypeChooser.chooseType("Salesman");
+        //System.out.println(personTypeChooser.getViewString());
+
+
+
+
+
     }
 }

@@ -20,5 +20,9 @@ public class Main extends Application {
         primaryStage.setTitle("Login page");
         primaryStage.setResizable(false);
         primaryStage.show();
+
+        
+
+
     }
 }
